@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>de.peter-neumaier</groupId>
+    <artifactId>race-main</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>race-gui</artifactId>
+  <name>Race Web GUI</name>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.apache.wicket</groupId>
+  		<artifactId>wicket-core</artifactId>
+  		<version>${wicket.version}</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.apache.wicket</groupId>
+  		<artifactId>wicket-ioc</artifactId>
+  		<version>${wicket.version}</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.apache.wicket</groupId>
+  		<artifactId>wicket-spring</artifactId>
+  		<version>${wicket.version}</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>de.peter-neumaier</groupId>
+  		<artifactId>race-service</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>de.peter-neumaier</groupId>
+  		<artifactId>race-model</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
+</project>
